@@ -1,28 +1,16 @@
+/*home page begins here*/
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin: 0px;
-    font-size: 1.5vw;
-}
-
-#logo {
-    margin: 0px;
-    padding: 8px;
-    font-family: "Fredoka One", sans-serif;
-    box-shadow: 8px 8px 10px 3px darkorange;
-    width: 16%;
-}
-
-ul{
-    margin:0px
 }
 
 body > header {
-    background-color: orange;
+    background-color: rgb(185, 102, 240);
     color: white;
     display: flex;
     height: 15vh;
     align-items: center;
-    justify-content: space-around;
+    font-size: 1.2vw;
    }
 
 body > header > nav > ul {
@@ -44,36 +32,105 @@ body > header > nav > ul {
     text-decoration: none;
     padding: 12px;
     border: 1px solid white;
-    border-radius: 10%;
+    font-weight: bold;
 }
 
-body > main article {
-    width: 70%;
-    margin: auto; 
+.logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Bona Nova SC", sans-serif;
+    font-size: 8vh; 
+    font-weight: 100;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
 }
 
-#main-content {
+image-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-container img {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
 }
 
-#main-content > div {
-    width: 80%;
+.overlay-text {
+    position: absolute;
+    top: 140px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 2.5em; 
+    font-family: "Bona Nova SC", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    z-index: 1;
 }
 
+.overlay-text-two {
+    position: absolute;
+    top: 120px;
+    left: 49%;
+    transform: translateX(-50%); 
+    color: white; /* White text */
+    font-size: 10em;
+    font-family: "Pinyon Script", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.home_gallery {
+    width: 20vw;
+    height: auto;
+    margin: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+}
+
+#gallery_image_description {
+    font-size: 1.2vw;
+}
+
+#author_pic {
+    border-radius: 50%;
+    width: 10vw;
+    height: auto;
+}
+
+.body_article {
+    font-size: 1.5vw;
+    width: 80vw;
+    margin: auto;
+}
+
+#form_headings {
+    width: 80vw;
+    margin: auto;
+}
 
 form {
     text-align: center;
 }
 
-h2 {
-    text-align: center;
+#copyright {
+    font-size: 0.8vw;
 }
 
 body > footer {
-    background-color: orange;
+    background-color: rgb(185, 102, 240);
     display: flex;
-   }
+    color:white;
+    height: 20vh;
+    align-items: center;
+    font-size: 1.2vw;
+}
 
 #footer-ul {
     display: flex;
@@ -87,9 +144,327 @@ body > footer {
 #footer-ul > div > li > a {
     color: white;
     text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-img {
-    border-radius: 50%;
+#footer_line_break {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
+/*home page ends here*/
+
+/*lifestyle begins here*/
+image-container-lifestyle {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-container-lifestyle img {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+
+.overlay-text-three {
+    position: absolute;
+    top: 150px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 10em; 
+    font-family: "Pinyon Script", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.lifestyle_article {
+    font-size: 1.5vw;
+    width: 80vw;
+    margin: auto;
+}
+
+.aixmarket_gallery {
+    width: 20vw;
+    height: auto;
+    margin: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#aixmarketgallery {
+    display: flex;
+    justify-content: center;
+}
+
+.flaner_gallery {
+    width: 20vw;
+    height: auto;
+    margin: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#flanergallery {
+    display: flex;
+    justify-content: center;
+}
+
+.aperitif_gallery {
+    width: 20vw;
+    height: auto;
+    margin: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#aperitifgallery {
+    display: flex;
+    justify-content: center;
+}
+/*lifestyle ends here*/
+
+/*excursions begins here*/
+image-container-excursions {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-container-excursions img {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+
+.overlay-text-four {
+    position: absolute;
+    top: 150px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 10em; 
+    font-family: "Pinyon Script", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.excursions_article {
+    font-size: 1.5vw;
+    width: 80vw;
+    margin: auto;
+}
+
+.nice_gallery {
+    width: 20vw;
+    height: auto;
+    margin: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#nice-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+#nice-gallery_image_description {
+    font-size: 1.2vw;
+}
+
+.marseille_gallery {
+    width: 20vw;
+    height: auto;
+    margin: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#marseille-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+#marseille-gallery_image_description {
+    font-size: 1.2vw;
+}
+
+.valensole_gallery {
+    width: 20vw;
+    height: auto;
+    margin: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#valensole-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.verdon_gallery {
+    width: 40vw;
+    height: auto;
+    margin: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#verdon-gallery {
+    display: flex;
+    justify-content: center;
+}
+/*excursions ends here*/
+
+/*food begins here*/
+image-container-food {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-container-food img {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+
+.overlay-text-five {
+    position: absolute;
+    top: 150px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 10em; 
+    font-family: "Pinyon Script", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.food_article {
+    font-size: 1.5vw;
+    width: 80vw;
+    margin: auto;
+}
+
+.food_gallery {
+    width: 20vw;
+    height: auto;
+    margin: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#food-gallery {
+    display: flex;
+    justify-content: center;
+}
+/*food ends here*/
+
+/*language begins here*/
+image-container-language {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-container-language img {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+
+.overlay-text-five {
+    position: absolute;
+    top: 150px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 10em; 
+    font-family: "Pinyon Script", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.language_article {
+    font-size: 1.5vw;
+    width: 80vw;
+    margin: auto;
+}
+
+#directions_section {
+    display: flex;
+    justify-content: center;
+}
+
+.directions_gallery {
+        width: 40vw;
+        height: auto;
+        margin: 30px;
+}
+
+#shops_section {
+    display: flex;
+    justify-content: center;
+}
+
+.shop_gallery {
+        width: 40vw;
+        height: auto;
+        margin: 30px;
+}
+
+#restaurant_section {
+    display: flex;
+    justify-content: center;
+}
+
+.restaurant_gallery {
+        width: 40vw;
+        height: auto;
+        margin: 30px;
+}
+/*language ends here*/
+
+/*terms begins here*/
+#terms_conditions_article {
+    font-size: 1.5vw;
+    width: 80vw;
+    margin: auto;
+}
+/*terms ends here*/
+
+/*privacy begins here*/
+#privacy_article {
+    font-size: 1.5vw;
+    width: 80vw;
+    margin: auto;
+}
+/*privacy ends here*/
+
+/*cookies begins here*/
+#cookies_article {
+    font-size: 1.5vw;
+    width: 80vw;
+    margin: auto;
+}
+/*cookies ends here*/
+
+/*aboutus begins here*/
+#aboutus_article {
+    font-size: 1.5vw;
+    width: 80vw;
+    margin: auto;
+}
+/*aboutus ends here*/
+
+/*contact begins here*/
+#contact_article {
+    font-size: 1.5vw;
+    width: 80vw;
+    margin: auto;
+}
+/*contact ends here*/

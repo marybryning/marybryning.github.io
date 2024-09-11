@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" class="css">
+    <script src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Vie en Provence</title>
+</head>
+<body>
+    <header id="main-header">
+        <h1 class="logo">La Vie en Provence</h1>
+        <nav>
+            <ul id="nav-ul">
+                <li>
+                    <a href="index.html" class="navbutton">Home</a>
+                </li>
+                <li>
+                    <a href="excursions.html" class="navbutton">Excursions</a>
+                </li>
+                <li>
+                    <a href="food.html" class="navbutton">Food</a>
+                </li>
+                <li>
+                    <a href="lifestyle.html" class="navbutton">Lifestyle</a>
+                </li>
+                <li>
+                    <a href="language.html" class="navbutton">Language</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <article id="contact_article">
+        <h2>Contact Us</h2>
+        <p>
+            We’d love to hear from you! Whether you have questions, feedback, or just want to say hello, 
+            feel free to get in touch at 0123 456 7891.
+        </p>
+    </article>
+    </main>
+    <hgroup id="form_headings">
+        <h3>Alternatively, fill out the form below to be contacted by a member of our specialist 
+            travel team and receive personalised recommendations and much more.</h3>
+        </hgroup>
+        <form action="" method="POST">
+            <label for="first_name">First Name:</label><br>
+            <input type="text" id="first_name" name="first_name" required><br><br>
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" id="last_name" name="last_name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="phone">Phone:</label><br>
+            <input type="phone" id="phone" name="phone" required><br><br>
+            <label for="enquiry_area">Enquiry Area:</label><br>
+            <input type="radio" id="excursions" name="enquiry_area" value="excursions">
+            <label for="excursions">Excursions</label><br>
+            <input type="radio" id="food" name="enquiry_area" value="food">
+            <label for="food">Food</label><br>
+            <input type="radio" id="lifestyle" name="enquiry_area" value="lifestyle">
+            <label for="lifestyle">Lifestyle</label><br>
+            <input type="radio" id="language" name="enquiry_area" value="language">
+            <label for="language">Language</label><br>
+            <input type="radio" id="other_area" name="other_area" value="other_area">
+            <label for="other_area">Other</label><br><br>
+            <label for="enquiry_info">Please provide details of your enquiry here:</label><br>
+            <textarea id="enquiry_info" name="enquiry_info" rows="5" cols="50"></textarea><br><br>
+            <label for="contacted_by">How would you like to be contacted?</label><br>
+            <select id="contacted_by" name="contacted_by">
+                <option value="telephone">Telephone</option>
+                <option value="email_address">Email</option>
+            </select><br><br>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to our newsletter!</label><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+        <p id="copyright">&copy; 2024 La Vie en Provence. All rights reserved.</p>
+    <footer>
+        <h2 class="logo">La Vie en Provence</h2>
+        <section>
+            <nav>
+                <ul id="footer-ul">
+                    <div>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    </div>
+                    <div>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="cookies.html">Cookie Policy</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+</body>
